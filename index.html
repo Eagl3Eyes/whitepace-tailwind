@@ -25,18 +25,19 @@
 <body>
     <!-- navbar -->
     <section class="mt-8    ">
-        <nav class="w-full flex lg:flex-row md:flex-col sm:flex-col lg:space-x-32 justify-center items-center">
+        <nav class="w-full flex flex-col lg:flex-row lg:space-x-32 justify-center items-center">
             <ul>
                 <li><a href="#"><img src="images/Logo.png" alt=""></a></li>
             </ul>
-            <ul class="flex flex-row gap-10 text-[#4F9CF9]">
+            <ul class="flex flex-row mt-4 lg:mt-0 gap-4 lg:gap-10 text-[#4F9CF9]">
                 <li><a class="hover:text-blue-700" href="#">Products <i class="fa-solid fa-chevron-down"></i></a></li>
                 <li><a class="hover:text-blue-700" href="#">Solutions <i class="fa-solid fa-chevron-down"></i></a></li>
                 <li><a class="hover:text-blue-700" href="#">Resources <i class="fa-solid fa-chevron-down"></i></a></li>
                 <li><a class="hover:text-blue-700" href="#">Pricing <i class="fa-solid fa-chevron-down"></i></a></li>
             </ul>
-            <ul class="flex flex-row gap-10">
-                <li><button class="px-6 py-4 rounded-lg bg-[#FFE492] text-[#043873] hover:bg-[#FFE512]">Login</button></li>
+            <ul class="flex flex-row mt-4 lg:mt-0 gap-4 lg:gap-10">
+                <li><button class="px-6 py-4 rounded-lg bg-[#FFE492] text-[#043873] hover:bg-[#FFE512]">Login</button>
+                </li>
                 <li><button class="px-6 py-4 rounded-lg bg-[#4F9CF9] text-white hover:bg-blue-600">Try Whitepace free <i
                             class="fa-solid fa-arrow-right"></i></button></li>
             </ul>
@@ -45,17 +46,19 @@
 
     <!-- hero -->
     <section class="mt-28">
-        <div class="w-full flex justify-center justify-center items-center gap-6">
-            <div class="justify-center items-center ml-40">
-                <h2 class="text-6xl font-bold text-[#4F9CF9]">Get More Done with <br> whitepace</h2>
-                <p class="mt-6 text-[#4F9CF9]">Project management software that enables your teams to collaborate, <br>
+        <div class="w-full flex flex-col lg:flex-row justify-center justify-center items-center gap-6 text-wrap">
+            <div class="flex flex-col lg:items-start justify-center items-center lg:ml-40">
+                <h2 class="text-4xl lg:text-6xl text-center lg:text-start font-bold text-[#4F9CF9]">Get More Done with
+                    <br> whitepace</h2>
+                <p class="mt-6 p-4 lg:p-0  text-center lg:text-start text-wrap text-[#4F9CF9]">Project management
+                    software that enables your teams to collaborate, <br>
                     plan, analyze and manage everyday
                     tasks</p>
-                <button class="mt-6 px-6 py-4 rounded-lg bg-[#4F9CF9] text-white hover:bg-blue-600">Try Whitepace free <i
-                        class="fa-solid fa-arrow-right"></i></button>
+                <button class="mt-6 px-6 py-4 rounded-lg bg-[#4F9CF9] text-white hover:bg-blue-600">Try Whitepace free
+                    <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
-            <div class="w-[824px] h-[549px]">
+            <div class="w-[350px] h-[250px] lg:w-[824px] lg:h-[549px] mt-6 lg:mt-0">
                 <img src="images/Image-container.png" alt="">
             </div>
         </div>
@@ -65,18 +68,19 @@
     <!-- Project Management -->
     <section class="mt-28">
         <div
-            class="w-full flex justify-center justify-center items-center gap-6 bg-[url('images/Group.png')] bg-no-repeat bg-left-bottom">
-            <div class="justify-center items-center">
-                <h2 class="text-6xl font-bold ">Project <br> <span
+            class="w-full flex flex-col lg:flex-row justify-center justify-center items-center gap-6 bg-[url('images/Group.png')] bg-no-repeat bg-[length:200px_200px] lg:bg-auto bg-left-top lg:bg-left-bottom">
+            <div class="flex flex-col items-center lg:items-start">
+                <h2 class="text-4xl lg:text-6xl text-center lg:text-start font-bold ">Project <br> <span
                         class="bg-[url('images/strock_project_management.png')] bg-no-repeat bg-bottom">Management</span>
                 </h2>
-                <p class=" mt-6">Images, videos, PDFs and audio files are supported. Create math expressions and <br>
+                <p class="p-4 lg:p-0 text-center lg:text-start mt-6">Images, videos, PDFs and audio files are supported.
+                    Create math expressions and <br>
                     diagrams directly from the app. Take photos with the mobile app and save them <br> to a note.</p>
-                <button class="mt-6 px-6 py-4 rounded-lg bg-[#4F9CF9] hover:bg-blue-600 text-white">Get Started <i
-                        class="fa-solid fa-arrow-right"></i></button>
+                <button class="mt-6 px-8 lg:px-6 py-4 rounded-lg bg-[#4F9CF9] hover:bg-blue-600 text-white">Get Started
+                    <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
-            <div class="w-[748px] h-[547px]">
+            <div class="w-[350px] h-[250px] lg:w-[748px] lg:h-[547px] mt-6 lg:mt-0">
                 <img src="images/Image-container2.png" alt="">
             </div>
         </div>
@@ -85,16 +89,18 @@
 
     <!-- Work Together -->
     <section class="mt-28">
-        <div class="w-full flex justify-center justify-center items-center gap-20">
-            <div class="w-[710px] h-[661px]">
+        <div
+            class="w-full flex flex-col-reverse lg:flex-row justify-center justify-center items-center gap-16 lg:gap-20">
+            <div class="w-[288px] h-[661px] lg:w-[667px] lg:h-[661px]">
                 <img src="images/Work Together Image.png" alt="">
             </div>
 
-            <div class="justify-center items-center">
-                <h2 class="text-6xl font-bold">Work <span
+            <div class="flex flex-col justify-center items-center lg:items-start">
+                <h2 class="text-4xl lg:text-6xl text-center lg:text-start font-bold">Work <span
                         class="bg-[url('images/strock_work_together.png')] bg-no-repeat bg-left-bottom">together</span>
                 </h2>
-                <p class=" mt-6">With whitepace, share your notes with your colleagues and collaborate on them. <br> You
+                <p class="text-center lg:text-start p-4 lg:p-0 mt-6">With whitepace, share your notes with your
+                    colleagues and collaborate on them. <br> You
                     can also publish a note to the internet and share the URL with others.
                 </p>
                 <button class="mt-6 px-6 py-4 rounded-lg bg-[#4F9CF9] hover:bg-blue-600 text-white">Try it now <i
@@ -106,17 +112,18 @@
 
     <!-- Customise it to your needs -->
     <section class="mt-28">
-        <div class="w-full flex justify-center justify-center items-center gap-20">
-            <div class="justify-center items-center">
-                <h2 class="text-6xl font-bold ">Customize it to <br> your <span
+        <div class="w-full flex flex-col lg:flex-row justify-center justify-center items-center gap-16 lg:gap-20">
+            <div class="flex flex-col justify-center items-center lg:items-start">
+                <h2 class="text-4xl lg:text-6xl text-center lg:text-start font-bold ">Customize it to <br> your <span
                         class="bg-[url('images/strock_customise_needs.png')] bg-no-repeat bg-bottom">needs</span></h2>
-                <p class=" mt-6">Customise the app with plugins, custom themes and multiple text editors (Rich Text <br>
+                <p class="text-center lg:text-start mt-6">Customise the app with plugins, custom themes and multiple
+                    text editors (Rich Text <br>
                     or Markdown). Or create your own scripts and plugins using the Extension API.</p>
                 <button class="mt-6 px-6 py-4 rounded-lg bg-[#4F9CF9] hover:bg-blue-600 text-white">Let’s Go <i
                         class="fa-solid fa-arrow-right"></i></button>
             </div>
 
-            <div class="w-[686px] h-[479px]">
+            <div class="w-[350px] h-[230px] lg:w-[686px] lg:h-[479px]">
                 <img src="images/Illustration.png" alt="">
             </div>
         </div>
@@ -128,13 +135,15 @@
     <section class="mt-48">
         <h2 class="text-center text-6xl font-bold">Choose <span
                 class="bg-[url('images/strock_your_plan.png')] bg-no-repeat bg-bottom">Your Plan</span></h2>
-        <p class="text-center mt-4">Whether you want to get organized, keep your personal life on track, or boost
+        <p class="text-center mt-4 ml-4 mr-4 lg:ml-0 lg:mr-0">Whether you want to get organized, keep your personal life
+            on track, or boost
             workplace productivity, Evernote has the <br> right plan for you.</p>
 
 
 
-        <div class="mt-8 flex flex-row justify-center items-center gap-10">
-            <div class="p-8 w-[472px] h-[500px] border rounded-md border-amber-200">
+        <div class="mt-8 flex flex-col lg:flex-row justify-center items-center gap-10">
+            <div
+                class="p-8 ml-4 mr-4 lg:ml-0 lg:mr-0 w-[350px] h-[570px] lg:w-[472px] lg:h-[500px] border rounded-md border-amber-200">
                 <div class="m-4">
                     <h3 class="text-3xl font-bold">Free</h3>
                     <h2 class="font-bold text-3xl mt-4"><i class="fa-solid fa-dollar-sign"></i>0</h2>
@@ -158,7 +167,8 @@
 
 
 
-            <div class="p-8 w-[472px] h-[550px] shadow-2xl">
+            <div
+                class="p-8 ml-4 mr-4 lg:ml-0 lg:mr-0 w-[350px] h-[650px] lg:w-[472px] lg:h-[550px] rounded-md shadow-2xl">
                 <div class="m-2">
                     <h3 class="text-3xl font-bold text-[#043873]">Personal</h3>
                     <h2 class="font-bold text-3xl mt-4 text-[#043873]"><i class="fa-solid fa-dollar-sign"></i>11.99</h2>
@@ -177,13 +187,15 @@
                         your
                         tasks</p>
 
-                    <button class="mt-8 px-4 py-2 rounded-md text-white bg-[#4F9CF9] hover:bg-blue-600">Get Started</button>
+                    <button class="mt-8 px-4 py-2 rounded-md text-white bg-[#4F9CF9] hover:bg-blue-600">Get
+                        Started</button>
                 </div>
             </div>
 
 
 
-            <div class="p-8 w-[472px] h-[450px] border rounded-md border-amber-200">
+            <div
+                class="p-8 ml-4 mr-4 lg:ml-0 lg:mr-0 w-[350px] h-[570px] lg:w-[472px] lg:h-[500px] border rounded-md border-amber-200">
                 <div class="m-4">
                     <h3 class="text-3xl font-bold">Organization</h3>
                     <h2 class="font-bold text-3xl mt-4"><i class="fa-solid fa-dollar-sign"></i>49.99</h2>
@@ -209,11 +221,14 @@
 
     <!-- your work  -->
 
-    <section class="mt-28 w-[1900px] h-[574px] bg-[#043873] bg-[url('images/Group.png')] bg-no-repeat bg-left-top">
+    <section
+        class="mt-28 w-full h-[650px] lg:w-[1900px] lg:h-[574px] bg-[#043873] lg:bg-[url('images/Group.png')] bg-no-repeat bg-left-top">
         <div class="w-full absolute mt-40 text-center">
-            <h1 class="font-bold text-6xl text-white">Your work, everywher<span
-                    class="bg-[url('images/strock_you_are.png')] bg-no-repeat bg-bottom">e you are</span></h1>
-            <p class="mt-20 text-white">Access your notes from your computer, phone or tablet by synchronising with
+            <h1
+                class="font-bold text-6xl text-white bg-[url('images/strock_you_are.png')] bg-no-repeat bg-[center_top_7rem] lg:bg-[bottom_right_31rem]">
+                Your work, everywhere you are</h1>
+            <p class="mt-6 ml-4 mr-4 lg:ml-0 lg:mr-0 lg:mt-10 text-white">Access your notes from your computer, phone or
+                tablet by synchronising with
                 various
                 services, including whitepace, Dropbox <br> and OneDrive. The app is available on Windows, macOS, Linux,
                 Android and iOS. A terminal app is also available!</p>
@@ -226,11 +241,12 @@
     <!-- 100% your data -->
 
     <section>
-        <div class="w-full justify-center items-center mt-28 flex flex-row">
-            <div class="">
-                <h2 class="text-6xl font-bold">100% <span
+        <div class="w-full flex flex-col-reverse lg:flex-row justify-center items-center mt-28 gap-20 lg:gap-0">
+            <div class="flex flex-col justify-center items-center lg:items-start">
+                <h2 class="text-4xl lg:text-6xl text-center lg:text-start font-bold">100% <span
                         class="bg-[url('images/strock_your_data.png')] bg-no-repeat bg-bottom">your data</span></h2>
-                <p class="mt-8">The app is open source and your notes are saved to an open format, so you'll always have
+                <p class="ml-4 mr-4 lg:ml-0 lg:mr-0 text-center lg:text-start mt-8">The app is open source and your
+                    notes are saved to an open format, so you'll always have
                     access <br>
                     to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but <br> yourself
                     can access them.</p>
@@ -239,7 +255,7 @@
                         class="fa-solid fa-arrow-right"></i></button>
             </div>
             <div>
-                <img class="w-[681px] h-[381.13px]" src="images/Element.png" alt="">
+                <img class="w-[400px] h-[200px] lg:w-[681px] lg:h-[381.13px]" src="images/Element.png" alt="">
             </div>
         </div>
     </section>
@@ -250,8 +266,8 @@
     <section class="w-full mt-28">
         <h2 class="text-6xl font-bold text-center">Our <span
                 class="bg-[url('images/strock_sponsors.png')] bg-no-repeat bg-bottom">sponsors</span></h2>
-        <div class="w-full mt-20 flex justify-center gap-40">
-            <img src="images/Apple.png" alt="">
+        <div class="w-full mt-20 flex flex-col lg:flex-row justify-center items-center gap-20 lg:gap-40">
+            <img class="w-[60px] h-[73px]" src="images/Apple.png" alt="">
             <img src="images/Microsoft.png" alt="">
             <img src="images/Slack.png" alt="">
             <img src="images/Google.png" alt="">
@@ -261,19 +277,23 @@
 
     <!-- Work with Your Favorite Apps -->
 
-    <section class="w-full h-[700px] mt-28 bg-[#043873] bg-[url('images/Element_fav_apps.png')] bg-no-repeat">
-        <div class=" flex flex-row justify-center items-center gap-20">
+    <section
+        class="w-full h-[927px] lg:h-[700px] mt-28 bg-[#043873] bg-[url('images/Element_fav_apps.png')] bg-no-repeat">
+        <div class="flex flex-col lg:flex-row justify-center items-center gap-20">
             <div class="mt-24">
-                <img src="images/Apps.png" alt="">
+                <img class="w-[320px] h-[270px] lg:w-full lg:h-full" src="images/Apps.png" alt="">
             </div>
-            <div>
-                <h2 class="text-6xl font-bold text-white">Work with Your <br> Favorite Apps Using <br> whitepace</h2>
-                <p class="text-white mt-10">Whitepace teams up with your favorite software. Integrate with over 1000+
+            <div class="ml-2 mr-2 lg:ml-0 lg:mr-0 flex flex-col justify-center items-center lg:items-start">
+                <h2 class="text-4xl lg:text-6xl font-bold text-center lg:text-start text-white">Work with Your <br>
+                    Favorite Apps Using <br> whitepace</h2>
+                <p class="text-center lg:text-start text-white mt-10">Whitepace teams up with your favorite software.
+                    Integrate with over 1000+
                     apps with Zapier to <br> have
                     all the tools you need for your project success.</p>
 
-                <button class="mt-16 px-4 py-2 rounded-md text-white bg-[#4F9CF9] hover:bg-blue-600">Read more <i
-                        class="fa-solid fa-arrow-right"></i></button>
+                <button
+                    class="mt-16 px-6 py-4 lg:px-4 lg:py-2 rounded-md text-white bg-[#4F9CF9] hover:bg-blue-600">Read
+                    more <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
     </section>
@@ -282,13 +302,13 @@
     <!-- testimonials -->
 
     <section class="mt-28">
-        <h2 class="text-6xl font-bold text-center">See what our <span
+        <h2 class="text-4xl lg:text-6xl font-bold text-center">See what our <span
                 class="bg-[url('images/strock_trusted.png')] bg-no-repeat bg-bottom">trusted</span> users Say</h2>
 
-        <div class="w-full mt-20 flex flex justify-center gap-8">
+        <div class="mt-4 lg:mt-20 ml-4 mr-4 flex flex-col lg:flex-row justify-center gap-8">
 
             <!-- card 1 -->
-            <div class="w-[472px] h-[480px] shadow-2xl rounded-2xl p-10">
+            <div class="w-[400px] lg:w-[472px] h-[480px] shadow-2xl rounded-2xl p-10">
                 <img class="w-[70px] h-[70px] mt-10" src="images/Avater1.png" alt="">
                 <p class="mt-10">“If you haven’t tried whitepace yet, you need <br> to give it a shot for your next
                     event. <br> It’s
@@ -313,7 +333,7 @@
 
 
             <!-- card 2 -->
-            <div class="w-[472px] h-[480px] bg-[#4F9CF9] shadow-2xl rounded-2xl p-10">
+            <div class="w-[400px] lg:w-[472px] h-[480px] bg-[#4F9CF9] shadow-2xl rounded-2xl p-10">
                 <img class="w-[70px] h-[70px] mt-10" src="images/Avater2.png" alt="">
                 <p class="mt-10">“If you haven’t tried whitepace yet, you need <br> to give it a shot for your next
                     event. <br> It’s
@@ -338,7 +358,7 @@
 
 
             <!-- card 3 -->
-            <div class="w-[472px] h-[480px] bg-[#4F9CF9] shadow-2xl rounded-2xl p-10">
+            <div class="w-[400px] lg:w-[472px] h-[480px] bg-[#4F9CF9] shadow-2xl rounded-2xl p-10">
                 <img class="w-[70px] h-[70px] mt-10" src="images/Avater3.png" alt="">
                 <p class="mt-10">“If you haven’t tried whitepace yet, you need <br> to give it a shot for your next
                     event. <br> It’s
@@ -363,7 +383,7 @@
         </div>
 
 
-        <div class="flex flex-row justify-center">
+        <div class="flex flex-row justify-center invisible lg:visible">
             <a href=""><img class="w-[100px] h-[100px]" src="images/Left-Arrow.png" alt=""></a>
             <a href=""><img class="w-[100px] h-[100px]" src="images/Right arrow.png" alt=""></a>
         </div>
@@ -373,10 +393,12 @@
 
     <!-- footer -->
     <footer class="w-full bg-[#043873]">
-        <div class="w-full flex flex-row justify-center p-32 gap-44">
-            <div>
+        <div
+            class="w-full flex flex-col lg:flex-row text-center lg:text-start justify-center items-center lg:items-start lg:p-32 gap-20 lg:gap-44">
+            <div class="mt-20 lg:mt-0">
                 <img src="images/logo_footer.png" alt="">
-                <p class="text-white">whitepace was created for <br> the new ways we live and <br> work. We make a
+                <p class="tex-center text-white">whitepace was created for <br> the new ways we live and <br> work. We
+                    make a
                     better <br> workspace around the world
                 </p>
             </div>
@@ -435,16 +457,17 @@
 
 
             <div>
-                <h2 class="text-white font-bold">Try It Today</h2>
-                <p class="text-white">Get started for free.
+                <h2 class="text-4xl text-white font-bold">Try It Today</h2>
+                <p class="mt-6 text-white">Get started for free.
                     Add your <br> whole team as your needs grow.</p>
-                <button class="mt-16 px-4 py-2 rounded-md text-white bg-[#4F9CF9] hover:bg-blue-600">Start today <i
+                <button class="mt-6 px-4 py-2 rounded-md text-white bg-[#4F9CF9] hover:bg-blue-600">Start today <i
                         class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
 
-        <div class="w-full flex flex-row justify-center gap-72">
-            <div class="flex flex-row gap-24 text-white p-8 mr-32">
+        <div class="w-full flex flex-col lg:flex-row justify-center items-center gap-6 lg:gap-72 mt-32 lg:mt-0">
+            <div
+                class="flex flex-col lg:flex-row justify-center items-center gap-6 lg:gap-24 text-white lg:p-8 lg:mr-32">
                 <a href="">
                     <h2><i class="fa-solid fa-globe"></i> English <i class="fa-solid fa-chevron-down"></i></h2>
                 </a>
@@ -462,6 +485,7 @@
                     <h2><i class="fa-regular fa-copyright"></i>2021 Whitepace LLC.</h2>
                 </a>
             </div>
+            <div class="visible lg:hidden w-[90%] py-px opacity-10 bg-white"></div>
 
             <div class="flex flex-row gap-10 p-8">
                 <a href=""><img src="images/Facebook.png" alt=""></a>
